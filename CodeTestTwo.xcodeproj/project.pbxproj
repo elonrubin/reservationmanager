@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2E47E2A650E6205EEF6B2CE /* Pods_CodeTestTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BAF879FD482815E387F12A /* Pods_CodeTestTwo.framework */; };
 		EF2434651EA1208700A93130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2434641EA1208700A93130 /* AppDelegate.swift */; };
 		EF2434671EA1208700A93130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2434661EA1208700A93130 /* ViewController.swift */; };
 		EF24346A1EA1208700A93130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2434681EA1208700A93130 /* Main.storyboard */; };
 		EF24346C1EA1208700A93130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF24346B1EA1208700A93130 /* Assets.xcassets */; };
 		EF24346F1EA1208700A93130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF24346D1EA1208700A93130 /* LaunchScreen.storyboard */; };
+		EF2434771EA1234400A93130 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2434761EA1234400A93130 /* Reservation.swift */; };
+		EF2434791EA1264700A93130 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2434781EA1264700A93130 /* Guest.swift */; };
+		EF24347B1EA1269F00A93130 /* Reservations Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24347A1EA1269F00A93130 /* Reservations Helper.swift */; };
+		EF24347D1EA1307900A93130 /* Alert Controller Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24347C1EA1307900A93130 /* Alert Controller Constructor.swift */; };
+		EF2434841EA3C25A00A93130 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EF2434831EA3C25A00A93130 /* README.md */; };
+		EF2434861EA412CA00A93130 /* Date Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2434851EA412CA00A93130 /* Date Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BAF879FD482815E387F12A /* Pods_CodeTestTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeTestTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4720ABC89EF2276CA43E525A /* Pods-CodeTestTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeTestTwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeTestTwo/Pods-CodeTestTwo.release.xcconfig"; sourceTree = "<group>"; };
+		B40D42F239D9327F4D342BE6 /* Pods-CodeTestTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeTestTwo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeTestTwo/Pods-CodeTestTwo.debug.xcconfig"; sourceTree = "<group>"; };
 		EF2434611EA1208700A93130 /* CodeTestTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeTestTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2434641EA1208700A93130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF2434661EA1208700A93130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		EF24346B1EA1208700A93130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF24346E1EA1208700A93130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2434701EA1208700A93130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2434761EA1234400A93130 /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		EF2434781EA1264700A93130 /* Guest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		EF24347A1EA1269F00A93130 /* Reservations Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reservations Helper.swift"; sourceTree = "<group>"; };
+		EF24347C1EA1307900A93130 /* Alert Controller Constructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alert Controller Constructor.swift"; sourceTree = "<group>"; };
+		EF2434831EA3C25A00A93130 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF2434851EA412CA00A93130 /* Date Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E47E2A650E6205EEF6B2CE /* Pods_CodeTestTwo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08418A063E6293B8B3E0BC71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BAF879FD482815E387F12A /* Pods_CodeTestTwo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C4A6750016B0E067502C699 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B40D42F239D9327F4D342BE6 /* Pods-CodeTestTwo.debug.xcconfig */,
+				4720ABC89EF2276CA43E525A /* Pods-CodeTestTwo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF2434581EA1208700A93130 = {
 			isa = PBXGroup;
 			children = (
 				EF2434631EA1208700A93130 /* CodeTestTwo */,
 				EF2434621EA1208700A93130 /* Products */,
+				0C4A6750016B0E067502C699 /* Pods */,
+				08418A063E6293B8B3E0BC71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,60 @@
 		EF2434631EA1208700A93130 /* CodeTestTwo */ = {
 			isa = PBXGroup;
 			children = (
-				EF2434641EA1208700A93130 /* AppDelegate.swift */,
-				EF2434661EA1208700A93130 /* ViewController.swift */,
-				EF2434681EA1208700A93130 /* Main.storyboard */,
-				EF24346B1EA1208700A93130 /* Assets.xcassets */,
-				EF24346D1EA1208700A93130 /* LaunchScreen.storyboard */,
-				EF2434701EA1208700A93130 /* Info.plist */,
+				EF2434831EA3C25A00A93130 /* README.md */,
+				EF2434811EA3BEEA00A93130 /* Views */,
+				EF24347E1EA3BEBE00A93130 /* View Controllers */,
+				EF24347F1EA3BECC00A93130 /* Data Model */,
+				EF2434801EA3BED700A93130 /* Business Logic */,
+				EF2434821EA3C05100A93130 /* Other Files */,
 			);
 			path = CodeTestTwo;
+			sourceTree = "<group>";
+		};
+		EF24347E1EA3BEBE00A93130 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF2434661EA1208700A93130 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EF24347F1EA3BECC00A93130 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF2434761EA1234400A93130 /* Reservation.swift */,
+				EF2434781EA1264700A93130 /* Guest.swift */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		EF2434801EA3BED700A93130 /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				EF24347A1EA1269F00A93130 /* Reservations Helper.swift */,
+				EF2434851EA412CA00A93130 /* Date Helper.swift */,
+			);
+			name = "Business Logic";
+			sourceTree = "<group>";
+		};
+		EF2434811EA3BEEA00A93130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF24346D1EA1208700A93130 /* LaunchScreen.storyboard */,
+				EF2434681EA1208700A93130 /* Main.storyboard */,
+				EF24347C1EA1307900A93130 /* Alert Controller Constructor.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EF2434821EA3C05100A93130 /* Other Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF24346B1EA1208700A93130 /* Assets.xcassets */,
+				EF2434641EA1208700A93130 /* AppDelegate.swift */,
+				EF2434701EA1208700A93130 /* Info.plist */,
+			);
+			name = "Other Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF2434731EA1208700A93130 /* Build configuration list for PBXNativeTarget "CodeTestTwo" */;
 			buildPhases = (
+				041A4AFA752AB969902BE9F7 /* [CP] Check Pods Manifest.lock */,
 				EF24345D1EA1208700A93130 /* Sources */,
 				EF24345E1EA1208700A93130 /* Frameworks */,
 				EF24345F1EA1208700A93130 /* Resources */,
+				E20A9CCF11CABAAC86B75E4F /* [CP] Embed Pods Frameworks */,
+				95274BAB591762BF6AE76EA0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +217,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		041A4AFA752AB969902BE9F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95274BAB591762BF6AE76EA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeTestTwo/Pods-CodeTestTwo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20A9CCF11CABAAC86B75E4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeTestTwo/Pods-CodeTestTwo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF24345D1EA1208700A93130 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF24347B1EA1269F00A93130 /* Reservations Helper.swift in Sources */,
 				EF2434671EA1208700A93130 /* ViewController.swift in Sources */,
+				EF2434861EA412CA00A93130 /* Date Helper.swift in Sources */,
 				EF2434651EA1208700A93130 /* AppDelegate.swift in Sources */,
+				EF2434841EA3C25A00A93130 /* README.md in Sources */,
+				EF24347D1EA1307900A93130 /* Alert Controller Constructor.swift in Sources */,
+				EF2434791EA1264700A93130 /* Guest.swift in Sources */,
+				EF2434771EA1234400A93130 /* Reservation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +396,12 @@
 		};
 		EF2434741EA1208700A93130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40D42F239D9327F4D342BE6 /* Pods-CodeTestTwo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U7QG5FXY5E;
 				INFOPLIST_FILE = CodeTestTwo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bsi.CodeTestTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +411,12 @@
 		};
 		EF2434751EA1208700A93130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4720ABC89EF2276CA43E525A /* Pods-CodeTestTwo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U7QG5FXY5E;
 				INFOPLIST_FILE = CodeTestTwo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bsi.CodeTestTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +443,7 @@
 				EF2434751EA1208700A93130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
